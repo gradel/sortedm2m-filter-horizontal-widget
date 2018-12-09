@@ -6,6 +6,9 @@
  Requires core.js and OrderedSelectBox.js
  */
 
+
+var $ = jQuery;
+
 function findForm(node) {
     // returns the node of the form containing the given node
     if (node.tagName.toLowerCase()  != 'form') {
